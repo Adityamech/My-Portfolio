@@ -37,7 +37,7 @@ function locomotiveAnimation() {
     // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
     ScrollTrigger.refresh();
   }
-  locomotiveAnimation();
+locomotiveAnimation();
   
   function navbarAnimation() {
     gsap.to("#nav-part1 svg", {
@@ -66,7 +66,7 @@ function locomotiveAnimation() {
   
   function videoconAnimation() {
     var videocon = document.querySelector("#video-container");
-    var playbtn = document.querySelector("#play");
+    var playbtn = document.querySelector("#cloud");
     videocon.addEventListener("mouseenter", function () {
       gsap.to(playbtn, {
         scale: 1,
